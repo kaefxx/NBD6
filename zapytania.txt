@@ -1,0 +1,8 @@
+1. match s = shortestpath((n {name: "Darjeeling"}) -[x*..6]- (m {name: "Sandakphu"})) return s as shortest;
+2. match s = shortestpath((n {name: "Darjeeling"}) -[x*..6]- (m {name: "Sandakphu"})) WHERE all(w IN x WHERE w.winter = 'true') return s as shortest;
+3a. match (n {name: "Darjeeling"}) -[x*..3]- (m {name: "Sandakphu"}) return distinct(x), reduce(s=0, d in x | s+1) as a order by a desc;
+3b. match (n {name: "Darjeeling"}) -[:twowheeler {summer: "true"}]- (m) return n, m; //returns empty shortest
+
+4. match (a :Airport)-[x]-(b) return a, count(x) order by count(x) desc;
+5. match (a :Airport {name: "LAX"})<-[:ORIGIN *..3]-(b:Flight)-[y]-(c: Ticket) match(b)-[:DESTINATION]-(dest :Airport)where c.price<3000 return distinct dest, b, a;
+

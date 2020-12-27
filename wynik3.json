@@ -1,0 +1,125 @@
+﻿[
+  {
+    "x": [
+      {
+        "identity": 0,
+        "start": 1,
+        "end": 0,
+        "type": "PublicTransport",
+        "properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+        }
+      },
+      {
+        "identity": 3,
+        "start": 0,
+        "end": 2,
+        "type": "trek",
+        "properties": {
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"distance": 18,
+"summer": "true"
+        }
+      },
+      {
+        "identity": 4,
+        "start": 2,
+        "end": 3,
+        "type": "trek",
+        "properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+        }
+      }
+    ],
+    "a": 3
+  },
+  {
+    "x": [
+      {
+        "identity": 1,
+        "start": 1,
+        "end": 0,
+        "type": "road",
+        "properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+        }
+      },
+      {
+        "identity": 3,
+        "start": 0,
+        "end": 2,
+        "type": "trek",
+        "properties": {
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"distance": 18,
+"summer": "true"
+        }
+      },
+      {
+        "identity": 4,
+        "start": 2,
+        "end": 3,
+        "type": "trek",
+        "properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+        }
+      }
+    ],
+    "a": 3
+  },
+  {
+    "x": [
+      {
+        "identity": 2,
+        "start": 1,
+        "end": 0,
+        "type": "trek",
+        "properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+        }
+      },
+      {
+        "identity": 3,
+        "start": 0,
+        "end": 2,
+        "type": "trek",
+        "properties": {
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"distance": 18,
+"summer": "true"
+        }
+      },
+      {
+        "identity": 4,
+        "start": 2,
+        "end": 3,
+        "type": "trek",
+        "properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+        }
+      }
+    ],
+    "a": 3
+  }
+]
